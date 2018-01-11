@@ -1,11 +1,28 @@
-.aw-white{
-	float: left;
+body{
+	height: 100vh;
 }
 .aw-white img{
-	height: 200px;
-	width: 200px;
+	height: 100px;
+	width: 100px;
+}
+.aw-white{
+	float: left;
+	width: 50px;
+	overflow: hidden;
 }
 .aw-black img{
-	height: 200px;
-	width: 200px;
+	height: 100px;
+	width: 100px;
+}
+.aw-black{
+	width: 50px;
+	overflow: hidden;
+	direction: rtl;
+}
+.main{
+	position: absolute;
+	top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
 }
